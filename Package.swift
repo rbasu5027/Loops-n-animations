@@ -8,18 +8,20 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "LoopsChallenge",
+    name: "AnimationsChallenge",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "LoopsChallenge",
+            name: "AnimationsChallenge",
             targets: ["AppModule"],
+            bundleIdentifier: "org.jhhs.AnimationsChallenge",
+            teamIdentifier: "BWYT76Q3DS",
             displayVersion: "1.0",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),
-            accentColor: .presetColor(.green),
+            accentColor: .presetColor(.cyan),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
