@@ -7,7 +7,7 @@ struct SpinningView1: View {
     var body: some View {
         Button("Spins") {
             //MARK: MVP - Part I
-            
+            currentDegree += 90
             
             
             
