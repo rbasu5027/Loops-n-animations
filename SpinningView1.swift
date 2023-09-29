@@ -19,7 +19,7 @@ struct SpinningView1: View {
         .clipShape(RoundedRectangle(cornerRadius: 10.0))
         //MARK: MVP - Part II
         
-        
+        .rotationEffect(Angle(degrees: 90))
         
         
         
