@@ -13,9 +13,10 @@ struct SpinningView2: View {
                 .background(.blue)
                 .foregroundColor(.white)
                 .clipShape(RoundedRectangle(cornerRadius: 10.0))
+                .animation(.easeIn, value: currentDegree)
             //MARK: MVP - Part III
-                
-            
+               
+                .rotationEffect(Angle(degrees: currentDegree))
             
             
             
